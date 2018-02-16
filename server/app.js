@@ -22,7 +22,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Mongoose configuration
 mongoose.connect(process.env.MONGODB_URI);
-// Lesson 2: Use environment variable for the MONGODB_URI
 
 app.set('view engine', 'jade');
 
